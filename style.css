@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Varela Round", sans-serif;
+    background-color: #2A9D8F;
+}
+.container{
+    width: 30%;
+    box-shadow: 0 0 10px rgb(12, 235, 239);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F4A261;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+ h1{
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 10px;
+}
+#EntryPic{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.searchButton{
+    box-shadow: 0 0 5px black;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+.searchButton input{
+    border: none;
+  outline: none;
+  border-radius: 20px;
+  background-color:#F4A261;
+
+}
+.searchButton button{
+    outline: none;
+  border: none;
+  width: 70px;
+  height: 34px;
+  border-radius: 20px;
+}
+.searchButton button:hover{ 
+    transition: all 0.5s ease;
+    background-color:  #EDFFEC;
+}
+.PowerDisplay {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
